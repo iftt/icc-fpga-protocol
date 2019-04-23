@@ -8,17 +8,18 @@
 [downloads-url]: https://www.npmjs.com/package/@iftt/icc-fpgra-protocol
 
 ## About
+IOTA Crypto Core FPGA
 
-**Create new modules with this skeleton**
 
+## Gen a random seed
 ```sh
-# grab the package
-git clone https://github.com/IFTT/icc-fpgra-protocol.git
-# remove the origin
-git remote rm origin
-# download the dependencies
-yarn
+# Linux
+cat /dev/urandom |tr -dc A-Z9|head -c${1:-81}
+# OS X
+cat /dev/urandom |LC_ALL=C tr -dc 'A-Z9' | fold -w 81 | head -n 1
 ```
+
+If you are using windows, ensure python is installed and run the examples file `genRandomSeed.py` OR if nodejs is installed just run the examples file `keygen.js`
 
 ---
 
