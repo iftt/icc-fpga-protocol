@@ -1,11 +1,11 @@
-# icc-fpgra-protocol [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+# icc-fpga-protocol [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-[travis-image]: https://travis-ci.org/iftt/icc-fpgra-protocol.svg?branch=master
-[travis-url]: https://travis-ci.org/iftt/icc-fpgra-protocol
-[npm-image]: https://img.shields.io/npm/v/@iftt/icc-fpgra-protocol.svg
-[npm-url]: https://npmjs.org/package/@iftt/icc-fpgra-protocol
-[downloads-image]: https://img.shields.io/npm/dm/@iftt/icc-fpgra-protocol.svg
-[downloads-url]: https://www.npmjs.com/package/@iftt/icc-fpgra-protocol
+[travis-image]: https://travis-ci.org/iftt/icc-fpga-protocol.svg?branch=master
+[travis-url]: https://travis-ci.org/iftt/icc-fpga-protocol
+[npm-image]: https://img.shields.io/npm/v/@iftt/icc-fpga-protocol.svg
+[npm-url]: https://npmjs.org/package/@iftt/icc-fpga-protocol
+[downloads-image]: https://img.shields.io/npm/dm/@iftt/icc-fpga-protocol.svg
+[downloads-url]: https://www.npmjs.com/package/@iftt/icc-fpga-protocol
 
 ## About
 IOTA Crypto Core FPGA

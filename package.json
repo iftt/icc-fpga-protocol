@@ -17,9 +17,9 @@
   "author": "Craig OConnor",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IFTT/icc-fpga-protocol/issues"
+    "url": "https://github.com/ifft/icc-fpga-protocol/issues"
   },
-  "homepage": "https://github.com/IFTT/icc-fpga-protocol#readme",
+  "homepage": "https://github.com/ifft/icc-fpga-protocol#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
