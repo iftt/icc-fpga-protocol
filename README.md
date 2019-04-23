@@ -10,6 +10,12 @@
 ## About
 IOTA Crypto Core FPGA
 
+## Debug
+If you need to debug this module use the string `icc-fpga-protocol`
+```sh
+DEBUG=icc-fpga-protocol node x
+```
+
 
 ## Gen a random seed
 ```sh

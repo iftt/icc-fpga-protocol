@@ -2,11 +2,14 @@
 import SerialPort from 'serialport'
 import EventEmitter from 'events'
 
+const debug = require('debug')('icc-fpga-protcol')
+
 class FpgaProtocol extends EventEmitter {
   port: SerialPort
   tryteBuffer: Buffer
   constructor (portLocation: string, baudRate: number = 115200) {
     super()
+    debug('creating FpgaProtocol')
     this.port = new SerialPort(portLocation, { baudRate })
     this.port.on('open', () => {
       this._onPortOpen()
@@ -25,6 +28,7 @@ class FpgaProtocol extends EventEmitter {
   _onPortOpen () {} // to be replaced by parent
 
   attachToTangle (trunkTransaction: string, branchTransaction: string, minWeightMagnitude: number, trytes: [string], callback: Function): Promise<string> {
+    debug('attachToTangle')
     const self = this
     return new Promise((resolve, reject) => {
       try { // several errors that COULD occur and would crash the app.. so lets be safe rather then sorry
