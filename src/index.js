@@ -7,7 +7,7 @@ const debug = require('debug')('icc-fpga-protcol')
 class FpgaProtocol extends EventEmitter {
   port: SerialPort
   tryteBuffer: Buffer
-  constructor (portLocation: string, baudRate: number = 115200) {
+  constructor (portLocation: string, baudRate?: number = 115200) {
     super()
     debug('creating FpgaProtocol')
     this.port = new SerialPort(portLocation, { baudRate })
