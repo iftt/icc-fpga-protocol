@@ -27,10 +27,10 @@ DEBUG=icc-fpga-protocol node x
 ## Install
 ```sh
 # npm
-npm install --save tryte-buffer
+npm install --save iftt/icc-fpga-protocol
 
 # yarn
-yarn add tryte-buffer
+yarn add iftt/icc-fpga-protocol
 ```
 
 ## How to use
@@ -45,9 +45,9 @@ then creat the module
 
 ```js
 // ES6
-import FpgaProtocol from 'icc-fpga-protocol'
+import FpgaProtocol from 'iftt/icc-fpga-protocol'
 // ES5
-const FpgaProtocol = require('icc-fpga-protocol').default
+const FpgaProtocol = require('iftt/icc-fpga-protocol').default
 
 const fpgaProtocol = new FpgaProtocol('/dev/ttyUSB1') // using the default 115200 baud rate
 
@@ -66,7 +66,7 @@ The standard format with the iota tangle is to push the `attachToTangle` forward
 const IOTA = require('iota.lib.js')
 const iota = new IOTA({ provider: 'https://testnet.iota.com:443' })
 // create FpgaProtocol instance
-const FpgaProtocol = require('icc-fpga-protocol').default
+const FpgaProtocol = require('iftt/icc-fpga-protocol').default
 const fpgaProtocol = new FpgaProtocol('/dev/ttyUSB1')
 // link the 'attachToTangle' function
 iota.api.attachToTangle = (trunkTransaction, branchTransaction, minWeight, trytes, callback) => {
