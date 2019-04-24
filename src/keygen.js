@@ -1,6 +1,7 @@
+// @flow
 import crypto from 'crypto'
 
-export function seedGenerator (length: number = 81) {
+export function seedGenerator (length: number = 81): string {
   const charset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ9'
   let key = ''
 
