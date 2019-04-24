@@ -27,10 +27,10 @@ DEBUG=icc-fpga-protocol node x
 ## Install
 ```sh
 # npm
-npm install --save iftt/icc-fpga-protocol
+npm install --save @iftt/icc-fpga-protocol
 
 # yarn
-yarn add iftt/icc-fpga-protocol
+yarn add @iftt/icc-fpga-protocol
 ```
 
 ## How to use
@@ -45,9 +45,9 @@ then creat the module
 
 ```js
 // ES6
-import FpgaProtocol from 'iftt/icc-fpga-protocol'
+import FpgaProtocol from '@iftt/icc-fpga-protocol'
 // ES5
-const FpgaProtocol = require('iftt/icc-fpga-protocol').default
+const FpgaProtocol = require('@iftt/icc-fpga-protocol').default
 
 const fpgaProtocol = new FpgaProtocol('/dev/ttyUSB1') // using the default 115200 baud rate
 
