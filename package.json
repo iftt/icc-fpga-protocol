@@ -1,6 +1,6 @@
 {
   "name": "@iftt/icc-fpga-protocol",
-  "version": "1.1.9",
+  "version": "1.1.13",
   "description": "When creating new NodeJS modules, use this skeletal structure",
   "main": "lib/index.js",
   "scripts": {
